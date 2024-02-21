@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+
+h1{
+    padding-top: 30px;
+}
+
+#options{
+    padding: 20px 0 20px;
+}
+
+#options button{
+    font-size: x-large;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color:hsl(170, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#options button:hover{
+    background-color:hsl(170, 100%, 80%); 
+}
+
+#results{
+    font-weight: bold;
+}
+
+#resultsDisplay{
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+#playerResults, #computerResults{
+    font-size: larger;
+}
+
+.greenText, #playerScoreDisplay{
+    color: hsl(120, 50%, 35%);
+}
+
+.redText {
+    color: hsl(2, 95%, 46%);
+}
+
+.neutralText, #computerScoreDisplay{
+    color: hsl(219, 95%, 46%);
+}
+
+.scoreDisplay{
+    font-size: x-large;
+}
+
